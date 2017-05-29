@@ -1,0 +1,1 @@
+/usr/bin/flume-ng agent -c /etc/flume-ng/conf -f TwiterConf.conf -n TwitterAgent
