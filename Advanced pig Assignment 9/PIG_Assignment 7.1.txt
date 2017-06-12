@@ -1,0 +1,43 @@
+1. Why Map-reduce program is needed in Pig Programming?
+
+Because pig internally used map reduce programs to processs the data.
+
+2. What are advantages of pig over MapReduce?
+
+Pig data flow language i.e pig Latin. For MapReduce, Java is by default supported programming language. However support for other language is also available.
+
+Pig provides inbuilt optimization for MR jobs whereas in map reduce developer needs to take care of optimization.
+
+Hadoop MapReduce is a software framework for easily writing applications which process vast amounts of data  in-parallel on large clusters (thousands of nodes) of commodity hardware in a reliable, fault-tolerant manner.
+
+Pig's infrastructure layer consists of a compiler that produces sequences of Map-Reduce programs, for which large-scale parallel implementations already exist .
+
+3.What is pig engine and what is its importance?
+
+Its act as an interpreter between Pig Latin script and Map reduce job. Its create an environment to execute pig script to series of map reduce job.
+
+4. What are the modes of Pig execution?
+
+There two mode of pig execution:
+1. Pig local
+2. Pig Map reduce mode
+
+5. What is grunt shell in Pig?
+
+The Grunt shell of Apache Pig is mainly used to write Pig Latin scripts. Prior to that, we can invoke any shell commands using sh and fs.
+
+6. What are the features of Pig Latin language?
+
+Apache Pig is an abstraction over MapReduce. It is a tool/platform which is used to analyze larger sets of data representing them as data flows. Pig is generally used with Hadoop; we can perform all the data manipulation operations in Hadoop using Pig.
+
+7.Is Pig latin commands case sensitive?
+
+The names (aliases) of relations and fields are case sensitive. The names of Pig Latin functions are case sensitive. The names of parameters (see Parameter Substitution) and all other Pig Latin keywords are case insensitive.
+
+8. What is a data flow language?
+
+In computer programming, dataflow programming is a programming paradigm that models a program as a directed graph of the data flowing between operations, thus implementing dataflow principles and architecture.
+
+
+
+
